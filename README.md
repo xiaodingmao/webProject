@@ -15,3 +15,5 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 飞机游戏分为三种难度，简单，中等，困难模式.需鼠标右键一直按住飞机图片
 ### [打飞机游戏进阶](https://xiaodingmao.github.io/webProject/打飞机小游戏实现/index.html)
 优化游戏体验，只需移动鼠标，飞机会随之移动。并变换了游戏模式。
+### [一号店首页](https://xiaodingmao.github.io/webProject/一号店实战2.0/index.html)
+### [豆瓣电影](https://xiaodingmao.github.io/webProject/AJAX的应用实例/豆瓣电影评分.html)
