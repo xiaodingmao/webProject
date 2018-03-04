@@ -1,0 +1,354 @@
+@charset 'utf-8';
+/* 轮播图主体样式定义 */
+.yhd-content .menuwrap{height:400px;background:#F94B29;}
+.menuwrap .mainbav{position:relative;overflow:hidden;width:1228px;height:100%;margin:auto;}
+.menuwrap .mainbav .bgnav{width:5000px;}
+.menuwrap .mainbav .bgnav > li{float:left;width:1228px;height:400px;background:url(../images/01-banner/0.jpg) repeat-x 205px;}
+.menuwrap .mainbav .radiubtn{position:absolute; bottom:10px;left:50%;margin-left:-105px;}
+.menuwrap .mainbav .radiubtn a{display:inline-block;width:12px;height:12px;margin-left:15px;
+
+border-radius:50%;
+background:rgba(255,255,255,0.5);
+}
+.menuwrap .mainbav .radiubtn a:hover{background:rgba(255,64,64,0.7);box-shadow:0 0 2px 2px #fff;}
+
+.menuwrap .mainbav .midbtn span{position:absolute;top:50%;margin-top:-22px;width:44px;height:44px;
+border-radius:50%;background:rgb(255,255,255);line-height:44px;opacity:0.5;text-align:center;font-size:20px;}
+.menuwrap .mainbav .midbtn span.pre{left:215px;}
+.menuwrap .mainbav .midbtn span.next{right:225px;}
+.menuwrap .mainbav .midbtn span:hover{opacity:1;}
+/* 
+子菜单左导航样式定义 */
+.menuwrap .mainbav .leftsidebar{
+position:absolute;width:205px;height:100%;padding:3px 0px;background:rgba(0,0,0,0.7);}
+.menuwrap .mainbav .leftsidebar .list{
+height:32px;width:100%;margin-bottom:1px;line-height:32px;color:#fff;font-size:12px;text-indent:15px;}
+.menuwrap .mainbav .leftsidebar .list i{margin-right:15px;font-size:18px;color:#656463;font-weight:bold;}
+
+.menuwrap .mainbav .leftsidebar .list:hover{background:#fff;color:#000;}
+
+.menuwrap .mainbav .leftsidebar .list:hover i{color:#FF6B44;}
+  
+
+/* 
+二级菜单定义 */
+.leftsidebar .subnav{display:none;position:absolute;top:0px;left:205px;z-index:999;width:1024px; 
+    min-height:399px;background:#fff;margin:auto;padding-top:15px; border:1px solid #F2F2F2; 
+   box-shadow:2px 2px 5px #666;}
+.subnav .subnavcontent{/* width:707px; */padding:0px 20px;border-right:1px solid #F2F2F2;}
+.subnav .subnavcontent dt{width:72px;padding:10px 0px;text-align:center;vertical-align:middle;font-size:14px;font-weight:bold;}
+.subnavcontent dd{ width:647px;padding:10px 0px 0px 10px;border-bottom:1px solid #F2F2F2;word-spacing:15px;
+  word-break:keep-all;
+}
+.subnavcontent dd > a{display:inline-block;padding-bottom:10px;}
+.subnavcontent dd > a:hover{font-weight:bold;}
+
+/* 子菜单右边样式 */
+.subnav .subnavad {width:210px;padding:0px 20px;}
+.subnav .subnavad li{margin:5px 0px;}
+.subnav .subnavad li .ad{float:left; margin:10px 10px 10px 10px;  }
+.subnav .subnavad li .ad img{width:80px;height:32px;}
+.subnav .subnavad li > a > img{width:205px;height:110px;}
+
+.menuwrap .mainbav .leftsidebar > li:hover .subnav{display:block;}
+
+
+.mainbav .login{position:absolute;top:50%;right:20px;margin-top:-118px;width:205px;height:236px;
+background:url(../images/01-banner/vip_bg2.png) no-repeat center/cover;}
+
+.mainbav .login .loginlogo{position:absolute;left:50%;top:-30px;margin-left:-37px;z-index:2;
+width:64px;height:64px;border-radius:50%;
+background:url(../images/00-header/2.png) no-repeat 0px -150px;border:5px solid rgba(0,0,0,0.1);
+}
+
+.login p{margin-top:55px;text-align:center;}
+.login .logbtn{margin:30px 0px 20px 0px;;text-align:center;}
+.login .logbtn button{width:70px;height:26px;border-radius:20px;background-color:#fff;border:1px solid #FF4040;color:#FF4040;}
+.login .logbtn button + button{margin-left:15px;}
+.login .logad a{display:inline-block;padding:0px 0px 6px 20px;}
+.login .logad a i{font-style:normal;}
+.login .logad a:hover{color:#FF4040;}
+.login .logbtn button:hover{background:#FF4040;color:#fff;}
+
+/* 
+网页主题内容整体居中样式 */
+
+/* .yhd-content  */.autocontent{/* height:5000px; */width:1228px;margin:auto;/* border:1px solid red; */}
+/* 一号抢购 *************************************************************************/
+.autocontent .yhshopping{height:140px;margin-top:10px;}
+/* 一号抢购左边 */
+.yhshopping .shoppingbanner{position:relative;width:205px;height:100%;background:url(../images/00-header/2.png) repeat;text-align:center;}
+.shoppingbanner h3{padding-top:45px;padding-bottom:5px;color:#000;font-weight:normal;}
+.shoppingbanner span{display:inline-block;width:36px;height:27px;background:rgba(0,0,0,.8);color:#fff;font-size:18px;font-weight:bold;vertical-align:middle;}
+.shoppingbanner > i{display:inline-block;height:27px;width:10px;vertical-align:middle;font-style:normal;font-weight:bold;font-size:18px;color:#000;}
+.shoppingbanner h2{padding-top:5px;color:#fff;font-size:16px;font-weight:normal;}
+.shoppingbanner > a{position:absolute;top:0px;right:0px;display:block;width:100%;height:100%;}
+.shoppingbanner:hover h2{text-decoration:underline;}
+/* 一号抢购右边 */
+.yhshopping .shoppingcontainer{ position:relative;overflow:hidden;height:140px; width:1023px;}
+.shoppingcontainer ul{width:5000px;}
+.shoppingcontainer li{position:relative;width:225px;height:140px;padding:15px;background:#fff;}
+.shoppingcontainer li:after{content:'';position:absolute;top:35px;right:0px;height:70px;width:1px;border-right:1px solid #ddd;}
+.shoppingcontainer li h3.shoppingtext{overflow:hidden;width:100px;height:45px;margin-bottom:5px;font-weight:normal;}
+.shoppingcontainer li img{ position:absolute;top:20px;right:10px;width: 110px;height: 110px;/*  width:125px;height:140px; */transition:0.5s;}
+.shoppingcontainer li span{position:absolute;top:0px;right:0px;width:37px;height:37px;
+background:url(../images/00-header/2.png) no-repeat -160px -150px;text-align:center;}
+.shoppingcontainer li > a{position:absolute;top:0px;right:0px;display:block;width:100%;height:100%;}
+.shoppingcontainer > a{position:absolute;top:50%;margin-top:-20px;width:20px;height:40px;background:#CCCCCC;
+text-align:center;color:#000;line-height:40px;font-weight:bold;transition:0.5s;}
+.shoppingcontainer .shoppiing_pre{right:-20px;}
+.shoppingcontainer .shoppiing_next{left:-20px;}
+.shoppingcontainer:hover .shoppiing_pre{right:0px;}
+.shoppingcontainer li:hover img{right:15px;}
+
+
+
+/* 一号闪购样式设计 ***************************************************************************/
+
+.yhflashpurchase{/* overflow:hidden; */height:400px;margin-top:20px;}
+.yhflashpurchase .flashpurchasebanner{position:relative;width:267px;height:100%; background:url(../images/03-brands/1.jpg) no-repeat center/cover;}
+.flashpurchasebanner  > a{position:absolute;top:0px;right:0px;display:block;width:100%;height:100%;}
+.flashpurchasebanner .flashtitle{position:absolute;z-index:1;left:50%;bottom:35px;margin-left:-100px;width:200px;height:100px;
+background:rgba(255,255,255,.5);text-align:center;}
+.flashpurchasebanner .flashtitle h2,h3{font-weight:normal;color:#000;}
+.flashpurchasebanner .flashtitle h2{height:33px;padding-top:20px;}
+.flashpurchasebanner .flashtitle h2:after{content:'';position:absolute;left:50%;top:50%;margin-left:-15px;margin-top:5px;height:11px;width:30px;border-top:1px solid #000;}
+.flashpurchasebanner .flashtitle h3{margin-top:10px;}
+.flashpurchasebanner .flashtitle:hover{background:rgba(255,255,255,.8);}
+/* 
+一号闪购之团购 */
+.yhflashpurchase .grouppurchase{width:484px;height:100%;background:#fff;margin:0px 10px;border-top:1px solid #FB6233;}
+.grouppurchasenav{position:relative;height:33px;margin-bottom:5px;background:url(../images/03-brands/6.png)no-repeat 0px 5px/cover;font-weight:normal;}
+.grouppurchasenav > a{position:absolute;top:-5px;left:50%;margin-left:-70px;z-index:2;
+ width:140px;height:32px;background-color:#FB6233;font-size:18px;color:#fff;text-align:center;line-height:32px;}
+.grouppurchasenav > a:after{content:'';position:absolute;top:0px;right:-5px;width:0px;height:0px;border:3px solid transparent;border-left-color:#FB6233;border-bottom-color:#FB6233;}
+.grouppurchasenav > a:before{content:'';position:absolute;top:0px;left:-5px;width:0px;height:0px;border:3px solid transparent;border-right-color:#FB6233;border-bottom-color:#FB6233;}
+.yhflashpurchase .grouppurchase .group_conleft{width:250px;height:360px;
+background:url(../images/03-brands/2.jpg)no-repeat center/cover;border-right:1px solid #eee;}
+.yhflashpurchase /* .grouppurchase */ .group_conright{overflow:hidden;/* height:360px; */margin:0px 15px 0px 20px;}
+.yhflashpurchase /* .grouppurchase */ .group_conright div{position:relative;width:198px;height:180px;padding-top:15px;font-weight:normal;border-bottom:1px solid #eee;}
+.group_conright div h2,.group_conright div h3{font-weight:normal;line-height:30px;width:90px;}
+.yhflashpurchase /* .grouppurchase  */.group_conright .salegroup img{position:absolute;right:0px;bottom:10px;width:110px;height:110px;transition:0.3s;}
+.yhflashpurchase /* .grouppurchase */ .group_conright .selectgroup img{position:absolute;right:0px;bottom:40px;width:110px;height:110px;transition:0.3s;}
+.yhflashpurchase /* .grouppurchase */ .group_conright .salegroup:hover img{right:5px;}
+.yhflashpurchase /* .grouppurchase */ .group_conright .selectgroup:hover img{right:5px;}
+/* 
+一号闪购之排行榜 */
+
+.purchaseline{width:453px;height:100%;border-top:1px solid #FF4040;background:#fff;}
+.purchaseline .grouppurchasenav > a{background-color:#FF4040;}
+.purchaseline .grouppurchasenav > a:after{border-left-color:#FF4040;border-bottom-color:#FF4040;}
+.purchaseline .grouppurchasenav > a:before{border-right-color:#FF4040;border-bottom-color:#FF4040;}
+.purchaseline .grouppurchasenav > span{line-height:33px;font-size:12px;color:#ccc;}
+.purchaseline .grouppurchasenav > span i{font-size:16px;}
+.purchaseline .grouppurchasenav > span > a:hover{color:red;}
+
+.linegoods{padding:0px 14px;}
+.goodsnav{border-bottom:1px solid #eee;}
+.goodsnav span{display:inline-block;width:82px;height:34px;border-bottom:2px solid transparent;line-height:34px;text-align:center;
+transition:border-bottom 0.5s;}
+.goodsnav span:hover{border-bottom:2px solid #FF4040;color:#FF4040;}
+
+.goodsshow{padding:20px 0px 10px;}
+.goodsshow a + a{margin-left:47px;}
+.goodsshow .goods{position:relative;display:inline-block;width:100px;height:128px;}
+.goodsshow .goods > img{width:100px;height:100px;}
+.goodsshow .goods p{line-height:28px;}
+.goodsshow .king:before{content:'1';position:absolute;left:0px;top:-8px;z-index:1;width:20px;height:16px;background:url(../images/1.png)no-repeat -60px -1px;text-align:center;color:#fff; }
+.goodsshow .king1:before{content:'2';position:absolute;left:-5px;top:-8px;z-index:1;width:20px;height:16px;background:url(../images/1.png)no-repeat -90px -1px;text-align:center;color:#fff; }
+.goodsshow .king2:before{content:'3';position:absolute;left:-5px;top:-8px;z-index:1;width:20px;height:16px;background:url(../images/1.png)no-repeat -120px -1px;text-align:center;color:#fff; }
+.goodsshow a:hover p{color:#FF4040;}
+
+/* 爱上新样式设计 */
+.lovenew .flashpurchasebanner{background-image:url(../images/04-new/1.jpg);}
+.lovenew .grouppurchasenav > a{background-color:#DFA747;}
+.lovenew .grouppurchasenav > a:after{border-left-color:#DFA747;border-bottom-color:#DFA747;}
+.lovenew .grouppurchasenav > a:before{border-right-color:#DFA747;border-bottom-color:#DFA747;}
+.lovenew .grouppurchase .group_conleft{background-image:url(../images/04-new/2.jpg);}
+.lovenew /* .grouppurchase */ .group_conright .salegroup{/* width:200px; */height:110px;padding:0px;
+margin-bottom:10px;}
+.lovenew/*  .grouppurchase */ .group_conright .salegroup img{width:90px;height:90px;}
+
+/* 生活派 */
+.lovenew .lifestyle{width:453px;}
+.lovenew .lifestyle .grouppurchasenav{margin-bottom:20px;}
+.lovenew .lifestyle .grouppurchasenav > a{background-color:#F39156;}
+.lovenew .lifestyle .grouppurchasenav > a:after{border-left-color:#F39156;border-bottom-color:#F39156;}
+.lovenew .lifestyle .grouppurchasenav > a:before{border-right-color:#F39156;border-bottom-color:#F39156;}
+.lovenew .lifestyle .group_conleft{width:205px;padding-left:20px;}
+.lovenew .lifestyle .group_conleft .salegroup{width:205px;height:208px;padding-top:10px;background:url(../images/04-new/6.jpg)no-repeat center/cover #fff;border-right:1px solid #eee;transition:0.5s;}
+.lovenew .lifestyle .group_conleft .salegroup:hover{background-position:-15px 0px;}
+.lovenew .lifestyle .group_conright .salegroup{width:190px;padding:0px;margin:0px;}
+.lovenew .lifestyle .group_conright .salegroup img{width:80px;height:80px;}
+.lovenew .lifestyle .lifebottom .selectgroup{width:205px;height:102px;
+   margin:10px 5px 10px 20px;background:url(../images/04-new/7.jpg)no-repeat center/cover #F8E2D7;
+   text-indent:10px;line-height:20px;transition:0.5s;}
+.lovenew .lifestyle .lifebottom .selectgroup p{font-size:14px;}
+.lovenew .lifestyle .lifebottom .lifeselect{background-image:url(../images/04-new/10.jpg); background-color: #FEF1E0;margin-left:10px;}
+.lovenew .lifestyle .lifebottom .selectgroup:hover{background-position:-10px -3px;}
+
+
+/* 全球进口 ***************************************************************************/
+
+.globalimport{margin-top:20px;}
+.globalimport dt{position:relative;}
+.globalimport dt h2{height:47px;line-height:47px;text-indent:1em;color:#675548;}
+.globalimport dt span{position:absolute;top:50%;left:100px;margin-top:-8px;height:17px;
+background-color:#675548;border-radius:50%;line-height:17px;}
+.globalimport .importbanner{position:relative;width:316px;height:450px;
+background:url(../images/06-global/1.jpg)no-repeat center/cover;}
+.globalimport  .importbanner div{ position:absolute;width:285px;left:50%;bottom:15px; margin-left:-142.5px;}
+.globalimport  .importbanner a{float:left;width:85px;height:30px;margin:5px;color:#fff;line-height:30px;
+text-align:center;font-size:14px;background:rgba(255,255,255,.1);}
+.globalimport  .importbanner a:hover{background:rgba(255,255,255,.5);}
+/* 表格样式的设计 */
+.importcontent{width:604px; height:440px;background:#B96131;padding:5px 5px 5px 0px;}
+.globalimport table{border-collapse:collapse;}
+.globalimport table td{width:200px;height:220px;border:1px solid #675548;padding:0px;background:#fff;transition:transform 0.5s;}
+.globalimport table td img{float:right;width:140px;height:140px;margin-right:10px;margin-bottom:10px;}
+.globalimport table td h3{text-indent:1.5em;line-height:25px;}
+.globalimport table td h3:nth-child(2){color:#ccc;}
+.globalimport table .contentimg{background:url(../images/06-global/2.jpg)no-repeat center/cover;}
+.globalimport table td:hover{transform:scale(1.1);}
+/* 全球进口右边导航栏的设计 */
+.globalimport .importright{width:300px;height:450px;}
+.importright a{position:relative;float:left;width:150px;height:140px;padding-top:10px;}
+.importright a span{display:block;width:20px;height:3px;margin:10px 0px 0px 14px;background:#F16E99;}
+.importright a h3{text-indent:1em;line-height:26px;font-weight:lighter;color:#F16E99;}
+.importright a p{color:#aaa;font-size:12px;text-indent:1.2em;font-weight:lighter;}
+.importright a img{position:absolute;right:0px;bottom:0px;width:100px;height:100px;transition:0.5s;}
+.importright a:hover img{right:15px;}
+
+/* 
+国产食品公共样式设计*************************************************************************** */
+.madeincommon{height:430px;margin-top:20px;}
+/* 最左边样式设计 */
+.madeincommon .combanner{height:410px;width:236px;padding-top:20px;background:linear-gradient(#F89959,#F9AF62);
+color:#fff;text-align:center;font-size:14px;}
+.combanner > a:first-of-type{display:block;width:120px;height:32px;margin:auto;border-bottom:1px solid #fff;
+text-align:center;line-height:32px;font-size:20px;vertical-align:middle;}
+.combanner > a i{vertical-align:middle;}
+
+/* 左边轮播图样式 */
+.combanner .foodcard{height:225px;margin-top:35px;}/* 轮播图可视区设计 */
+
+.combanner .foodcard ul{position:relative;width:195px;margin:auto;}/* 容纳轮播图片的大容器 */
+/* 要轮播的单一项目样式设计 */
+.combanner .foodcard .foodlist{position:absolute;top:0px;left:0px;width:195px;height:205px;
+padding-top:20px;background:#fff;border-radius:5px;}
+.combanner .foodcard .foodlist  img{width:130px;height:130px;}
+.foodlist h3{line-height:20px;color:#F89959;}
+.foodlist p{color:#aaa;text-align:center;line-height:30px; }
+.combanner .foodcard .foodlist0{z-index:3;}
+.combanner .foodcard .foodlist1{z-index:2;width:175px;top:-10px;left:50%;margin-left:-87.5px;}
+.combanner .foodcard .foodlist2{z-index:1;width:155px;top:-20px;left:50%;margin-left:-77.5px;}
+/* 为轮播的单个项目加一个遮罩层，这样在定位的时候可以覆盖后面定位上来的图片 */
+.foodlist1 .colorbox,.foodlist2 .colorbox{position:absolute;top:0px;height:0px;height:100%;width:100%;
+ background:#F78F50; opacity:0.6; }
+.foodlist2 .colorbox{opacity:0.3;}
+/* 轮播图下面的操作按钮样式设计 */
+.combanner .foodbtn{height:30px;margin-top:10px;line-height:30px;word-spacing:10px;letter-spacing:5px;}
+.combanner .foodnote{height:26px;width:100%;padding:8px 0px;;margin-top:15px;background:rgba(255,255,255,.5);}
+.combanner .foodnote span{float:left;width:43px;height:26px;line-height:28px;border-right:1px solid #fff;text-align:center;}
+
+/* 右边样式设计 */
+.comcontent{background:#fff;}
+.comcontent table{border-color:#F5F5F5;border:0px;}
+/* .comcontent  */.madefoodnav{height:14px;padding:13px 0px;}
+/* .comcontent */ .madefoodnav a{float:left;height:13px;line-height:13px;padding:0px 18px;text-align:center;color:#B1B1C7;font-weight:normal;}
+/* .comcontent  */.madefoodnav a + a{border-left:1.5px solid #B1B1C7;}
+/* .comcontent */ .fooddetail td{position:relative;width:226px;height:168px;padding-top:25px;padding-left:20px;vertical-align:top;}
+/* .comcontent */ .fooddetail td > h3{ position:relative;line-height:26px;z-index:1;}
+/* .comcontent */ .fooddetail td > img{position:absolute;right:10px;bottom:10px;width:130px;height:130px;transition:0.3s;}
+/* .comcontent */ .fooddetail td > a{position:absolute;z-index:2;left:0;top:0;width:100%;height:100%;}
+/* .comcontent */ .fooddetail td:hover img{right:15px;}
+
+.comcontent td.foodtag{padding:15px 20px;height:163px;width:206px;}
+.comcontent td.foodtag td{width:89px;height:40px; padding:7px 10px;}
+.comcontent td.foodtag img{position:absolute;top:50%;margin-top:-20px;left:50%;margin-left:-40px;width:80px;height:40px;}
+/* 右边热门食品列表设计 */
+.comcontent th.hotfood{width:248px;font-weight:normal;}
+.comcontent th.hotfood table th{height:40px;width:248px;text-align:center;font-size:14px;}
+.comcontent th.hotfood td{height:78px;width:248px;}
+.comcontent th.hotfood td a{position:relative;}
+.comcontent th.hotfood td.hottag a:before{content:'1';position:absolute;top:0;left:8px;width:15px;height:15px;background:#FF4040;
+color:#fff;text-align:center;line-height:15px;}
+.comcontent th.hotfood td img{float:left;height:60px;width:60px;padding-left:10px;}
+.comcontent th.hotfood td p{float:left;overflow:hidden;width:130px;height:40px;padding-left:10px;}
+.comcontent th.hotfood td em{float:left;padding-left:10px;font-style:normal;color:#FF4040;}
+.comcontent th.hotfood td a:hover p{color:#FF4040;}
+/* 
+一号生鲜商品公共样式设计************************************************************************************** */
+.yhfresh{/* height:430px; */margin-top:20px;}
+/* .yhfresh li + li{margin-left:10px;} */
+.yhfresh .freshstyle{width:609px;}
+.yhfresh .freshstyle table{background:#fff;table-layout:fixed;}
+.yhfresh .freshstyle th{height:50px;background:-webkit-linear-gradient(left,#0BCD96,#05D6A7);font-weight:normal;color:#fff;}
+.yhfresh .freshstyle th > a:first-of-type{float:left;border:none;}
+.yhfresh .freshstyle th .madefoodnav{float:right;}
+.yhfresh .freshstyle th .madefoodnav a{float:left;color:#fff;padding:0px 10px;border-left:none;}
+.yhfresh .freshstyle th .madefoodnav a + a{border-left:1px solid #fff;}
+.yhfresh .freshstyle td{width:185px;height:190px;}
+.yhfresh .freshstyle .fooddetail td{width:170px;height:170px;padding-top:20px;padding-left:15px;}
+.yhfresh .freshstyle .fooddetail td > img{width:105px;height:105px;}
+.yhfresh .freshstyle .bigfresh{position:relative;overflow:hidden;width:237px;height:380px;}
+
+.yhfresh .freshstyle .bigfresh ul{ width:1000px; /* height:380px; */}
+.yhfresh .freshstyle .bigfresh li{float:left;position:relative;width:237px;height:calc(380px - 25px);background:url(../images/08-fresh/3.jpg) no-repeat 15px 0px/cover;
+padding-top:25px ;margin:0px;vertical-align:top;text-indent:15px;transition:background-position  0.5s}
+.yhfresh .freshstyle .bigfresh li h2{font-size:20px;font-weight:normal;}
+.yhfresh .freshstyle .bigfresh li > a{position:absolute;top:0px;left:0px;width:100%;height:100%;}
+.yhfresh .freshstyle .bigfresh li:hover{background-position:5px 0px;}
+.yhfresh .freshstyle .bigfresh  .bigfreshbtn{position:absolute;top:100px;left:15px;}
+.yhfresh .freshstyle .bigfresh  .bigfreshbtn a{float:left;width:22px;height:4px;margin-right:5px;}
+.yhfresh .freshstyle .bigfresh  .bigfreshbtn a:first-of-type{background:#0BCD96;}
+
+/* 酒水饮料特殊样式设计 */
+.yhfresh  .freshdrink th{background:-webkit-linear-gradient(left,#96374F,#963759);}
+.yhfresh  .freshdrink .bigfresh li{background:url(../images/08-fresh/8.jpg) no-repeat 15px 0px/cover;}
+.yhfresh  .freshdrink td.drinktag{padding:10px 10px 10px 0px;width:175px;height:170px;}
+.yhfresh  .freshdrink td.drinktag td{width:calc(168px / 2);height:calc(170px / 2);padding:0px; }
+.yhfresh  .freshdrink td.drinktag td img{width:80px;height:32px;padding-top:24px;}
+
+/* 
+懂你想要样式整体设计 */
+.knowyouwrap h2{margin-bottom:20px;text-align:center;font-weight:normal;}
+.knowyouwrap h2 i{display:inline-block;width:27px;height:18px;background:url(../images/1.png) no-repeat -180px 0px;vertical-align:middle;}
+.knowyouwrap h2 i + i{background:url(../images/1.png) no-repeat -220px 0px;}
+
+.knowyouwrap li{position:relative;float:left;width:220px;height:300px;padding:8px;margin-left:9px;margin-bottom:10px;background:#fff;}
+.knowyouwrap li img{width:220px;height:220px;}
+.knowyouwrap li p{overflow:hidden;width:100%;height:40px;padding:5px 0px;line-height:20px;}
+.knowyouwrap li h4{text-align:center;color:red;padding:0px;}
+.knowyouwrap li >a{position:absolute;top:0px;left:0px;width:100%;height:100%;}
+.knowyouwrap li >a:hover{border:1px solid #FF4040;}
+.knowyou-foot{position:relative;width:370px;height:30px;margin:auto;border-bottom:1px solid #ddd;}
+.knowyou-foot span{position:absolute;left:50%;bottom:-10px;margin-left:-75px;width:150px;background:#F5F5F5;font-size:18px;text-align:center;line-height:22px;}
+
+
+/* 左边固定导航样式设计 */
+.leftsidenav{position:fixed;left:50%;top:50%;margin-left:-660px;;margin-top:-220px;width:36px;}
+.leftsidenav a{display:block;width:26px;height:36px;padding:5px;margin-bottom:3px;background-color:#fff;text-align:center;line-height:20px;}
+.leftsidenav a:hover{color:#fff;background-color:#FE8282;}
+.leftsidenav a:nth-child(1):hover{background-color:#645144;}
+.leftsidenav a:nth-child(2):hover{background-color:#F78B4B;}
+.leftsidenav a:nth-child(3):hover{background-color:#0BCD96;}
+.leftsidenav a:nth-child(4):hover{background-color:#FF87D0;}
+
+/* 右边固定导航样式设计 */
+
+.rightsidenav{ position:fixed;top:0px;right:0px; height:100%;width:34px;background-color:#303030;}
+.rightsidenav a{position:relative;display:block;width:34px;height:32px;margin:5px 0px;color:#fff;line-height:32px;font-weight:bold;text-align:center;}
+.rightsidenav a i{font-size:18px;}
+.rightsidenav a span.bartag{position:absolute;z-index:-1;top:0px;left:34px;height:32px;padding:0px 15px 0px 10px;
+                          word-break:keep-all;font-weight:normal;background:#FF5C4D;line-height:32px;}
+.rightsidenav .bartop a:nth-child(1){height:160px;background:url(../images/sidebar/1.gif) no-repeat center/cover;}
+.rightsidenav .bartop a:nth-child(3){height:85px;width:18px;padding:10px 8px;}
+.rightsidenav .bartop a:nth-child(3) p{line-height:18px;}
+.rightsidenav .bartop a:nth-child(3) span{position:absolute;left:0px;top:0px;width:100%;height:100%;background-color:rgba(255,255,255,.2);}
+.rightsidenav .barend{position:absolute;bottom:0px;left:0px;}
+.rightsidenav .barend a:nth-child(2) span{display:none;position:absolute;z-index:-1;bottom:-25px;left:-140px;width:130px;height:140px;box-shadow:0px 0px 5px 1px #aaa;}
+.rightsidenav .barend a:nth-child(2) span:after{content:'';position:absolute;bottom:38px;right:-5px;width:0px;height:0px;border:5px solid transparent;border-left-color:#fff; border-bottom-color:#fff;transform:rotate(-135deg);}
+.rightsidenav a:hover{background-color:#FF5C4D;}
+.rightsidenav a:hover span.bartag{left:-60px;transition:left 0.5s;}
+.rightsidenav .barend a:nth-child(2):hover span{display:block; }
