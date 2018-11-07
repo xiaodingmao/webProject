@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.5acce6d47cae9b8e068b7ebf280865c3.css"],"names":[],"mappings":"AACA,mCACE,SAAU,CACX","file":"app.5acce6d47cae9b8e068b7ebf280865c3.css","sourcesContent":["\n.tab .tab-item .router-link-active{\n  color:red;\n}\n"]}
