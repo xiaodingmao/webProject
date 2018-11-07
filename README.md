@@ -18,3 +18,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ### [一号店首页](https://xiaodingmao.github.io/webProject/一号店实战2.0/index.html)
 ### [豆瓣电影](https://xiaodingmao.github.io/webProject/AJAX的应用实例/豆瓣电影评分.html)
 豆瓣提供的接口数据为http链接，未加密所以无法直接通过所附的链接获取数据。需将网页下载至本地才能看到效果.
+###[外卖商家页面](http://45.76.192.15/foodSelling/dist/#/goods)
+利用vue框架，仿饿了么页面样式，制作外卖商家展示页面。具有评论展示，商品详情展示，商品添加删除功能及购物车展示等
+###[新闻资讯类页面](http://45.76.192.15/newsPage/dist/#/index.html)
+利用vue框架，易源数据作为后台数据，mint-ui框架，制作新闻资讯展示页面。包括新闻，天气，地点，商品g购买及添加购物车，明星图片类展示页面
